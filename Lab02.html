@@ -3,86 +3,82 @@
 <head>
   <meta charset = "utf-8" />
   <title>Share Your Travels -- New York - Central Park</title>
+    <link rel="stylesheet"  href="lab3.css">
   </head>
 
   <body>
-  <table>
-  <tr>
-  <td>  <img src="images/logo.png" alt="camera"/></td>
-  <td>  <h1>Share Your Travels</h1></td>
-  </tr>
-  </table>
-
+<header>
+ <div>
+  <h1>Share Your Travels</h1>
+<h2>Let us know where you've been</h2>
+    </div>
 <nav>
-  <ul>
+  <ul class="headernav">
     <li><a href="#">Description</a></li>
     <li><a href="#">Related Photos</a></li>
     <li><a href="#">Reviews</a></li>
   </ul>
 </nav>
+</header>
 
-<h2>New York - Central Park</h2>
+<article>
 
-<section>
- <h3>Description</h3>
-  <p>Photo by Randy Connolly</p>
-  <p>This photo of Conservatory Pond in <a href="#">Central Park</a> in <a href ="#" >New York City</a> was taken on October 22,2016
-  with a Canon EOS 30D camera.
-  </p>
- <figure>
-   <img src="images/central-park.jpg" alt="Central Park" >
+    <section>
+        <h1>New York - Central Park</h1>
+        <figure>
+   <img src="images/central-park.jpg" alt="Central Park" class="big">
  <figcaption>Conservatory Pond in Central Park</figcaption>
  </figure>
-
- 
- <p>Options:
+<div class="bigphotodescription">
+        <p class="bigphoto">This photo of Conservatory Pond in <a href="#">Central Park</a> in <a href ="#" >New York City</a> was taken on October 22,2016
+            with a Canon EOS 30D camera.
+        </p>
+    <p class="option">
  <input type= "image" src="images/icon_download.png">
  <input type= "image" src="images/icon_mail.png">
  <input type= "image" src="images/icon_map.png">
  <input type= "image" src="images/icon_up.png">
  <input type= "image" src="images/icon_down.png">
  </p>
+</div>
 </section>
 
 
 <section>
-  <h3>Related Photos</h3>
-  <table>
-    <tr>
-       <td><img src="images/related-square1.jpg"></td>
-       <td><img src="images/related-square2.jpg"></td>
-       <td><img src="images/related-square3.jpg"></td>
-    </tr>
-  </table>
+  <h1>Related Photos</h1>
+
+ <p class="relatedphoto">
+
+       <img class="one"   src="images/related-square1.jpg">
+       <img src="images/related-square2.jpg" class="one">
+       <img src="images/related-square3.jpg" class="one">
+    </p>
+
 </section>
 
 <section>
-<h3>Reviews</h3>
+<h1>Reviews</h1>
+    <div class="review">
   <div>
-    <table>
-    <tr>
-    <td> <img src="images/icon_comment.png" /></td>
-    <td> <p><strong>By Richardo on <time>2016-05-23</time></strong></p></td>
-    </tr>
-    </table>
-    <p>Easy on the HDR buddy.</p>
+      <p class="info">By Richardo on <time>2016-05-23</time></p>
+      <p class="rew">Easy on the HDR buddy.</p>
      </div>
   <hr>
   <div>
-  <table>
-  <tr>
-  <td>   <img src="images/icon_comment.png" /> </td>
-  <td>  <p><strong>By Susan on <time>2016-11-18</time></strong></p></td>
-  </tr>
-  </table>
-   <p>I love Central Park.</p>
+      <p class="info">By Susan on <time>2016-11-18</time></p>
+      <p class="rew">I love Central Park.</p>
    </div>
    <hr>
+    </div>
 </section>
+
+</article>
 
    <footer>
    <a href="#">Home</a> | <a href="#">Browse</a> | <a href="#">Search</a>
- <p> <em> <small>Copyright &copy; 2017 Share Your Travels</small></em></p></footer>
+ <p> <em> <small>Copyright &copy; 2017 Share Your Travels</small></em></p>
+   </footer>
+
    </body>
 </html>
 
