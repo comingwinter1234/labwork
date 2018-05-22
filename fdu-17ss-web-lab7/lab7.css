@@ -1,0 +1,23 @@
+#select,#select2,#commit {
+    width:300px;
+}
+form,select,div,input,table{
+    text-align: center;
+    }
+table{
+    color:whitesmoke;
+    margin:0 auto;
+}
+#table{
+     margin:0 auto;
+     border:1px black solid;
+ }
+table thead{
+    background-color: grey;
+}
+td,th{
+    padding:0 0.5em;
+}
+.single{
+    background-color: lightgrey;
+}
